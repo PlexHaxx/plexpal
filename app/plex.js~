@@ -1,0 +1,14 @@
+module.exports = function() {
+    plex = {
+        name : 'Plex Media Server',
+        url: 'http://192.168.1.99:32400'
+    };
+
+    service.basicInfo = function() {
+        var infoPromise = require('../controllers/makePromise.js')('GET', service.url);
+        return infoPromise;
+    };
+
+    return plex;
+};
+

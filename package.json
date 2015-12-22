@@ -1,0 +1,22 @@
+{
+  "name": "plexpal",
+  "version": "0.0.1",
+  "description": "'A helper app for managing a Plex Media Server'",
+  "main": "server.js",
+  "author": "Felipe Spinolo <felipespinolo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fspinolo/plexpal"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "grunt-cli": "^0.1.13",
+    "hogan-middleware": "0.0.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3"
+  }
+}
